@@ -1,0 +1,244 @@
+/* #FEF3E1 */
+.content-wrapper {
+    color: #FEF3E1;
+    /* background-image: url("<?php echo get_template_directory_uri(); ?>/viajeradelnoroeste_images//ballena.png"); */
+    background-image: url("../img/main-bg.png");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbar {
+    height: 44px;
+    border-bottom: 1px solid #FEF3E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.topbar > p > a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: #FEF3E1;
+}
+
+.content-wrapper > img {
+    margin-top: 290px;
+    width: 680px;
+}
+
+.cta-container {
+    margin: 108px 120px 138px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.button-container {
+    margin-top: 130px;
+}
+
+.button-bcn {
+    background-color: tomato;
+    color: #FEF3E1;
+    padding: 6px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+} 
+
+.btn-main-bcn {
+    margin-right: 40px;
+    color: black;
+    background-color: #03CD69;
+    border: 2px solid #03CD69;
+}
+
+.btn-secondary-bcn {
+    color: #FEF3E1;
+    background-color: transparent;
+    border: 2px solid #FEF3E1; 
+}
+
+section#blog {
+    padding: 120px 260px 113px 260px;
+    background-color: #1B1818;
+    color: #FEF3E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#blog p {
+    font-size: 22px;
+    margin-top: 19px;
+    text-align: center;
+    max-width: 600px;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+#blog .blog-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 400px));
+    column-gap: 60px;
+}
+
+#blog .blog-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#blog .blog-item h2 {
+    background-image: linear-gradient(to top, #FBFF3B 100%, #FBFF3B 0);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    white-space: pre-wrap;
+    line-height: 150%;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+#blog .blog-item h2 a {
+    color: #1B1818;
+}
+
+.wrapper {
+    display: inline-block;
+    margin-top: -30px;
+}
+
+.btn-green {
+    background-color: #03CD69;
+    color: #1B1818;
+    padding: 10px 22px;
+    border-radius: 10px;
+    margin-top: 90px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+section#map {
+    background-color: #03CD69;
+    color: #1B1818;
+    padding: 150px 175px 113px 175px;
+    display: grid;
+    /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+    grid-template-columns: 54% 46%;
+    column-gap: 14px;
+}
+
+#map h2 {
+    font-size: 45px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+#map p {
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+#map a {
+    font-size: 22px;
+    color: #FEF3E1;
+    background-color: #1B1818;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 58px;
+    display: inline-block;
+}
+
+#map img {
+    margin-top: 210px;
+}
+
+
+section#bacanora {
+    /* background: url("../img/Bacanora.svg"); */
+    background: url("../img/bacanora.png");
+    padding: 236px 0 246px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bacanora img {
+    max-width: 52px;
+}
+
+#bacanora p {
+    color: #FEF3E1;
+    font-size: 30px;
+    line-height: 120%;
+    max-width: 750px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 66px;
+}
+
+#bacanora h3 {
+    font-size: 40px;
+    color: #FEF3E1;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+section#video {
+    background: #FEF3E1;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.share-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1080px;
+    column-gap: 28px;
+}
+
+.share-container h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.share-container img {
+    height: 24px;
+}
