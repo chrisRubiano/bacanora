@@ -1,4 +1,17 @@
 /* #FEF3E1 */
+
+img {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, a {
+    font-family: "Space Grotesk", sans-serif!important;
+}
+
+a {
+    text-decoration: none;
+}
+
 .content-wrapper {
     color: #FEF3E1;
     /* background-image: url("<?php echo get_template_directory_uri(); ?>/viajeradelnoroeste_images//ballena.png"); */
@@ -11,14 +24,6 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-}
-
-p, h1, h2, h3, a {
-    font-family: "Space Grotesk", sans-serif!important;
-}
-
-a {
-    text-decoration: none;
 }
 
 .topbar {
@@ -36,7 +41,7 @@ a {
     color: #FEF3E1;
 }
 
-.content-wrapper > img {
+.content-wrapper .logo {
     margin-top: 290px;
     width: 680px;
 }
@@ -49,6 +54,7 @@ a {
 
 .button-container {
     margin-top: 130px;
+    margin-bottom: 140px;
 }
 
 .button-bcn {
@@ -189,6 +195,8 @@ section#map {
 section#bacanora {
     /* background: url("../img/Bacanora.svg"); */
     background: url("../img/bacanora.png");
+    background-size: cover;
+    background-position: center;
     padding: 236px 0 246px 0;
     display: flex;
     flex-direction: column;
@@ -231,6 +239,7 @@ section#video {
     justify-content: flex-end;
     align-items: center;
     width: 1080px;
+    max-width: 100%;
     column-gap: 28px;
 }
 
@@ -279,4 +288,55 @@ section#video {
     padding: 14px 32px;
     font-weight: 500;
     font-size: 22px;
+}
+
+@media (max-width: 991.8px) {
+    section#blog {
+        padding: 120px 44px 113px 44px;
+    }
+
+    section#map {
+        padding: 150px 44px 113px 44px;
+        grid-template-columns: 100%;
+        grid-template-rows: 2;
+    }
+
+    #map p {
+        width: 65%;
+    }
+
+    #map .map {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #map img {
+        margin-top: 50px;
+        width: 60%;
+    }
+
+    section#bacanora {
+        padding: 236px 44px 246px 44px;
+    }
+
+    #bacanora p {
+        font-size: 24px;
+    }
+
+    #bacanora h3 {
+        font-size: 36px;
+    }
+
+    section#video {
+        padding: 80px 44px;
+    }
+
+    #video iframe {
+        max-width: 100%;
+        height: 360px;
+    }
+
+    .share-container {
+    }
+
 }
