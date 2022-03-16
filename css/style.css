@@ -291,8 +291,33 @@ section#video {
 }
 
 @media (max-width: 991.8px) {
+
+    .content-wrapper .logo {
+        margin-top: 140px;
+        width: 72%;
+    }
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     section#blog {
         padding: 120px 44px 113px 44px;
+    }
+
+    #blog h1 {
+        font-size: 32px;
+    }
+
+    #blog .blog-container {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+        column-gap: 24px;
+    }
+
+    .blog-container .wrapper {
+        width: 70%;
     }
 
     section#map {
@@ -336,7 +361,11 @@ section#video {
         height: 360px;
     }
 
-    .share-container {
+    /* .share-container {
+    } */
+
+    section#footer {
+        padding: 240px 44px 100px 44px;
     }
 
 }
