@@ -11,71 +11,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}</style>
 
 </head>
-<body>
-    <div class="content-wrapper">
-        <div class="topbar">
-            <p><a href="https://noro.mx/">< NORO.MX</a></p>
+<body class="section">
+    <div class="slide" data-anchor="hdr">
+        <div class="content-wrapper">
+            <div class="topbar">
+                <p><a href="https://noro.mx/">< NORO.MX</a></p>
+            </div>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <div class="button-container">
+                <a href="#" class="button-bcn btn-main-bcn">ver episodio</a>
+                <a href="#" class="button-bcn btn-secondary-bcn">contenido adicional</a>
+            </div>
+            <img class="line" src="img/line.png" alt="">
         </div>
-        <img class="logo" src="img/logo.png" alt="logo">
-
-        <div class="button-container">
-            <a href="#" class="button-bcn btn-main-bcn">ver episodio</a>
-            <a href="#" class="button-bcn btn-secondary-bcn">contenido adicional</a>
-        </div>
-        <img class="line" src="img/line.png" alt="">
     </div>
-    <section id="blog">
-        <h1>Lorem ipsum dolor</h1>
-        <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <div class="blog-container">
-            <div class="blog-item">
-                <img src="img/blog1.png" alt="">
-                <div class="wrapper">
-                    <h2><a href="">Foro Mar de Cortés Summit 2021 en Los Cabos: Recap</a></h2>
-                </div>
-            </div>
-            <div class="blog-item">
-                <img src="img/blog2.png" alt="">
-                <div class="wrapper">
-                    <h2><a href="">Índice de Competividad Urbana 2021: así se ubica el noroeste</a></h2>
-                </div>
-            </div>
-            <div class="blog-item">
-                <img src="img/blog3.png" alt="">
-                <div class="wrapper">
-                    <h2><a href="">Summit 2021 Foro Mar de Cortés: un recap</a></h2>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="btn-green">ver más</a>
-    </section>
-    <section id="map">
-        <div class="text">
-            <h2>Lorem Ipsum</h2>
+    <div class="slide" data-anchor="blg">
+        <section id="blog">
+            <h1>Lorem ipsum dolor</h1>
             <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#">ver episodio</a>
-        </div>
-        <div class="map">
-            <img src="img/mapa.png" alt="">
-        </div>
-    </section>
-    <section id="bacanora">
-        <img src="img/Bacanora.svg" alt=""/>
-        <p>“Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-        <h3>– Fernando Martin Velazco</h3>
-    </section>
-    <section id="video">
+            <div class="blog-container">
+                <div class="blog-item">
+                    <img src="img/blog1.png" alt="">
+                    <div class="wrapper">
+                        <h2><a href="">Foro Mar de Cortés Summit 2021 en Los Cabos: Recap</a></h2>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <img src="img/blog2.png" alt="">
+                    <div class="wrapper">
+                        <h2><a href="">Índice de Competividad Urbana 2021: así se ubica el noroeste</a></h2>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <img src="img/blog3.png" alt="">
+                    <div class="wrapper">
+                        <h2><a href="">Summit 2021 Foro Mar de Cortés: un recap</a></h2>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn-green">ver más</a>
+        </section>
+    </div>
+    <div class="slide" data-anchor="mp">
+        <section id="map">
+            <div class="text">
+                <h2>Lorem Ipsum</h2>
+                <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">ver episodio</a>
+            </div>
+            <div class="map">
+                <img src="img/mapa.png" alt="">
+            </div>
+        </section>
+    </div>
+    <div class="slide" data-anchor="bcnr">
+        <section id="bacanora">
+            <img src="img/Bacanora.svg" alt=""/>
+            <p>“Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+            <h3>– Fernando Martin Velazco</h3>
+        </section>
+    </div>
+    <section class="slide" id="video" data-anchor="vd">
         <iframe width="1080" height="690" src="https://www.youtube.com/embed/jBUH5ziDH5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="share-container">
             <h3>Comparte:</h3>
             <img src="img/facebookblk.svg" alt="logo facebook"><img src="img/twitterblk.svg" alt="logo twitter"><img src="img/instagramblk.svg" alt="logo instagram"><img src="img/youtubeblk.svg" alt="logo youtube">
         </div>
     </section>
-    <section id="footer">
+    <section class="slide" id="footer" data-anchor="ftr">
         <h2>Lorem ipsum dolor as it</h2>
         <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="icon-container">
@@ -86,6 +94,62 @@
         </div>
         <a href="https://noro.mx/" class="btn-footer">noro.mx →</a>
     </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/fullpage.min.js"></script>
+
+    
+    <script>
+    $(document).ready(function() {
+        $('body').fullpage({
+        // menu: '#ss-full-menu',
+        hybrid:true,
+        lockAnchors: false,
+        anchors: ['hdr', '#blg','mp','bcnr','vd', 'ftr',],
+        lazyLoad: true,
+        //Desplazamiento
+        css3: true,
+        scrollingSpeed: 700,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        scrollBar: true,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        continuousVertical: false,
+        fadingEffect: false,
+        // normalScrollElements: '.bottom-fullpage',
+        //Accesibilidad
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+        //Diseno
+        responsiveWidth: 0,
+        responsiveHeight: 450,
+        // onLeave: function(origin, destination, direction){
+        //     var leavingSection = this;
+        //     if(origin.index == 0 && direction =='down'){
+        //         $('#ss-full-menu').addClass('show');
+        //     }
+        //     if(origin.index == 1 && direction =='up'){
+        //         $('#ss-full-menu').removeClass('show');
+        //     }
+        //     if(origin.index == 5 && direction =='up'){
+        //         $('#ss-full-menu').addClass('show');
+        //     }
+        //     if(origin.index == 4 && direction =='down'){
+        //         $('#ss-full-menu').removeClass('show');
+        //     }
+        //     if(destination.index == 6 ){
+        //         $('#ss-full-menu').removeClass('show');
+        //     }
+        //     if(destination.index == 7 ){
+        //         $('#ss-full-menu').removeClass('show');
+        //     }
+        // }
+        });
+    });</script>
 
 </body>
 </html>
