@@ -10,13 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/reset.css">
+    <style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}</style>
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}</style>
 
 </head>
-<body class="section">
+<body>
     <div class="slide" data-anchor="hdr">
         <div class="content-wrapper">
             <div class="topbar">
@@ -32,8 +31,11 @@
     </div>
     <div class="slide" data-anchor="blg">
         <section id="blog">
-            <h1>Lorem ipsum dolor</h1>
-            <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="slide" data-anchor="blg">
+        <section id="blog">
+            <h1>Bacanora</h1>
+            <p>El sabor de la resistencia.</p>
             <div class="blog-container">
                 <div class="blog-item">
                     <img src="img/blog1.png" alt="">
@@ -76,24 +78,28 @@
             <h3>– Fernando Martin Velazco</h3>
         </section>
     </div>
-    <section class="slide" id="video" data-anchor="vd">
-        <iframe width="1080" height="690" src="https://www.youtube.com/embed/jBUH5ziDH5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="share-container">
-            <h3>Comparte:</h3>
-            <img src="img/facebookblk.svg" alt="logo facebook"><img src="img/twitterblk.svg" alt="logo twitter"><img src="img/instagramblk.svg" alt="logo instagram"><img src="img/youtubeblk.svg" alt="logo youtube">
-        </div>
-    </section>
-    <section class="slide" id="footer" data-anchor="ftr">
-        <h2>Lorem ipsum dolor as it</h2>
-        <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <div class="icon-container">
-            <img src="img/facebookft.svg" alt="">
-            <img src="img/twitterft.svg" alt="">
-            <img src="img/instagramft.svg" alt="">
-            <img src="img/youtubeft.svg" alt="">
-        </div>
-        <a href="https://noro.mx/" class="btn-footer">noro.mx →</a>
-    </section>
+    <div class="slide" class="slide" data-anchor="vd">
+        <section  id="video" >
+            <iframe width="1080" height="690" src="https://www.youtube.com/embed/jBUH5ziDH5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="share-container">
+                <h3>Comparte:</h3>
+                <img src="img/facebookblk.svg" alt="logo facebook"><img src="img/twitterblk.svg" alt="logo twitter"><img src="img/instagramblk.svg" alt="logo instagram"><img src="img/youtubeblk.svg" alt="logo youtube">
+            </div>
+        </section>
+    </div>
+    <div class="slide" data-anchor="ftr">
+        <section id="footer">
+            <h2>Lorem ipsum dolor as it</h2>
+            <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="icon-container">
+                <img src="img/facebookft.svg" alt="">
+                <img src="img/twitterft.svg" alt="">
+                <img src="img/instagramft.svg" alt="">
+                <img src="img/youtubeft.svg" alt="">
+            </div>
+            <a href="https://noro.mx/" class="btn-footer">noro.mx →</a>
+        </section>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -102,7 +108,7 @@
     
     <script>
     $(document).ready(function() {
-        $('body').fullpage({
+        $('.section').fullpage({
         // menu: '#ss-full-menu',
         hybrid:true,
         lockAnchors: false,
